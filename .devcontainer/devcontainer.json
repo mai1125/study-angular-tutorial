@@ -1,0 +1,26 @@
+{
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "web",
+  "workspaceFolder": "/workspace",
+  "remoteUser": "node",
+  "settings": {
+    "#terminal.integrated.defaultProfile.linux#": "/bin/bash",
+    "#terminal.integrated.defaultProfile.windows#": "/bin/bash",
+    "#terminal.integrated.defaultProfile.osx#": "/bin/bash",
+    "files.trimTrailingWhitespace": true,
+    "explorer.compactFolders": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+  },
+  "extensions": [
+    "eamodio.gitlens",
+    "mhutchie.git-graph",
+    "msjsdiag.debugger-for-chrome",
+    "humao.rest-client",
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+  ]
+}
