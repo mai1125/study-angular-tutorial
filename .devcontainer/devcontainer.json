@@ -3,6 +3,7 @@
   "service": "web",
   "workspaceFolder": "/workspace",
   "remoteUser": "node",
+  "forwardPorts": [3333, 4200],
   "settings": {
     "#terminal.integrated.defaultProfile.linux#": "/bin/bash",
     "#terminal.integrated.defaultProfile.windows#": "/bin/bash",
@@ -21,6 +22,6 @@
     "msjsdiag.debugger-for-chrome",
     "humao.rest-client",
     "esbenp.prettier-vscode",
-    "dbaeumer.vscode-eslint",
+    "dbaeumer.vscode-eslint"
   ]
 }

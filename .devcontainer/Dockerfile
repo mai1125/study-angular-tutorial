@@ -19,3 +19,6 @@ RUN apt-get update \
   && npm install -g prettier \
   && npm install -g eslint \
   && npm install -g eslint-config-prettier
+
+# Install initial packages
+RUN npm install -g @angular/cli
